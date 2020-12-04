@@ -36,12 +36,10 @@ def crop_video(way,format_video) :
             print("Vidéo choisie : ",video_name)
     
     # d'autres demande je pense t'as capté tavu
-    time_start = int(input("Temps début (secondes) :\t"))
-    time_stop = int(input("Temps fin (secondes) :\t"))
+    time_start = float(input("Temps début (secondes) :\t"))
+    time_stop = float(input("Temps fin (secondes) :\t"))
     new_name = str("new_"+video_name)
     
-    # Create an object by passing the location as a string
-    #♣video = moviepy.editor.VideoFileClip(video_name)
     
     # on crop avec les infos données par l'utilisateur dans les inputs 
     ffmpeg_extract_subclip(video_name, time_start, time_stop, targetname=new_name)
