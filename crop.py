@@ -64,4 +64,4 @@ def crop_video(way,format_video,seeFolder = True,seeNew = False) :
 # mettre le chemin où il y a vos vidéos 
 #crop_video(way = r"D:\Prog&Job\Business\En cours\TikTok\Quotes\movie_show_quotes\Croping_video", format_video = "mp4")
 
-crop_video(r"D:\Prog&Job\Business\En cours\TikTok\Quotes\movie_show_quotes\Croping_video\movies", "mp4")
+crop_video(r"C:\way", "mp4")
